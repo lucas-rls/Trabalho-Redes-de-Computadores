@@ -10,7 +10,7 @@ Para executar este projeto é necessário ter instalado o python 3.
 
 # Sobre o projeto
 O trabalho se baseia em um script em python que utiliza como base a lib nativa sockets. Foram criadas duas classes:
-* Response (usada para fazer a conexão do socket e fazer todo o tratamento de envio e recebimento de mensagens)
+* Socket (usada para fazer a conexão do socket e fazer todo o tratamento de envio e recebimento de mensagens)
 * Response (classe utilizada para guardar os headers, o status code e o conteúdo da resposta)
 
 Além disso foi utilizada a lib re do python para usar regular expression para detectar as tags img's do código do site.
